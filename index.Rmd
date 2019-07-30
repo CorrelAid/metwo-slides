@@ -1,0 +1,103 @@
+---
+title:  <font size='9'>#MeTwo</font> <br> <font size='6'>Data Science in Digital Environments</font>
+author: <font size='5'>Konstantin Gavras, Lisa Hehnke, Paul Meiners, Sandra Meneses, Juan Orduz</font>
+date: <font size='6'>August 2, 2019</font>
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: xaringan-themer.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r fontawesome, include=FALSE} 
+library(fontawesome)
+```
+
+```{r xaringan-themer, include=FALSE}
+library(xaringanthemer)
+mono_light(base_color = "#2c3e50", 
+           header_font_google = google_font("Montserrat", "600"), 
+           text_font_google   = google_font("Montserrat", "300", "300i"))
+```
+
+class: inverse, center, middle
+
+# Title
+
+---
+
+## Title
+
+.pull-left[
+- **Text:** text
+
+- **Text:** text
+
+- **Text:** text
+]
+
+.pull-right[
+![](images/correlaid-logo.png)
+]
+
+---
+class: inverse, center, middle
+
+# Title
+
+---
+
+## Title
+
+.pull-left[
+- **Text:** text
+
+- **Text:** text
+
+- **Text:** text
+]
+
+.pull-right[
+![](images/correlaid-logo.png)
+]
+
+.center[
+***Text*** <br> text
+]
+
+---
+
+## Title
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/correlaid-logo.png")
+```
+
+---
+
+## Title
+
+- **Text:** text
+
+- **Text:** text
+
+- **Text:** text
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides made with `r fa("heart", fill = "#2c3e50e")` and R [*xaringan*](https://github.com/yihui/xaringan).
+
+<br>
+
+**More information** </b>
+`r fa("home", fill = "#2c3e50e")` metwo.correlaid.org `r fa("twitter", fill = "#2c3e50e")` @CorrelAid `r fa("facebook", fill = "#2c3e50e")` WeAreCorrelAid
