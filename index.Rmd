@@ -29,17 +29,19 @@ mono_light(base_color = "#2c3e50",
 
 class: inverse, center, middle
 
-# Title
+# #MeTwo - National Identity and Discrimination in Germany in Times of Migration
 
 ---
-## Title
+## A Data Science Perspective on Online Activism
 
 .pull-left[
-- **Text:** text
+- **Triggering Event:** Public outcry of Mesut Özil posing with Turkish President Erdogan
 
-- **Text:** text
+- **Initiation of Movement:** Ali Can announces #MeTwo to attract attention to problems of dicrimination and latent racism towards German with migration background
 
-- **Text:** text
+- **#MeTwo emerges:** More than 150,000 tweets in about one week (July 24 - August 03 2018)
+
+- **Data Science Perspective:** Analyse contributor, networks and content of this movement to identify underlying pattern
 ]
 
 .pull-right[
@@ -171,13 +173,28 @@ knitr::include_graphics("images/unnamed-chunk-21-1.png")
 ```
 
 ---
+## Shiny App
+
+- **Comprehension:** Important that data scientists communicates results on societally important questions properly
+
+- **Accessibility:** Develop an online tool for everyone to use
+
+- **Interactively:** Let users without data science background toggle around and understand the underlying pattern of the data
+
+- **Link:** [*MeTwo*](https://metwo.correlaid.org/)
+
+---
 ## Summary
 
-- **Text:** text
+- **#MeTwo:** Important social media movement with impact to the offline world, sparking discussion on the definition of *Germanhood*
 
-- **Text:** text
+- **Insights:** MeTwo was successful because influencer and social activists took part in event
 
-- **Text:** text
+- **Insights:** Although negative experiences have been made, lots of people spread positivity
+
+- **Blog-Post:** [*https://metwo.correlaid.org/*](https://metwo.correlaid.org/)
+
+- **Blog-Post:** [*https://correlaid.org/blog/metwo/*](https://correlaid.org/blog/metwo/)
 
 ---
 class: center, middle
