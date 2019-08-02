@@ -192,7 +192,7 @@ knitr::include_graphics("images/unnamed-chunk-21-1.png")
 
 - **Insights:** Although negative experiences have been made, lots of people spread positivity
 
-- **Blog-Post:** [*https://metwo.correlaid.org/*](https://metwo.correlaid.org/)
+- **Shiny App:** [*https://metwo.correlaid.org/*](https://metwo.correlaid.org/)
 
 - **Blog-Post:** [*https://correlaid.org/blog/metwo/*](https://correlaid.org/blog/metwo/)
 
