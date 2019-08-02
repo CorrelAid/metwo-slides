@@ -29,19 +29,19 @@ mono_light(base_color = "#2c3e50",
 
 class: inverse, center, middle
 
-# #MeTwo - National Identity and Discrimination in Germany in Times of Migration
+# #MeTwo - National identity and discrimination in Germany in times of migration
 
 ---
-## A Data Science Perspective on Online Activism
+## A data science perspective on online activism
 
 .pull-left[
-- **Triggering Event:** Public outcry of Mesut Özil posing with Turkish President Erdogan
+- **Triggering event:** Public outcry of Mesut Özil posing with Turkish President Erdogan
 
-- **Initiation of Movement:** Ali Can announces #MeTwo to attract attention to problems of dicrimination and latent racism towards German with migration background
+- **Initiation of movement:** Ali Can launches #MeTwo to draw attention to dicrimination and latent racism towards German with migration backgrounds
 
-- **#MeTwo emerges:** More than 150,000 tweets in about one week (July 24 - August 03 2018)
+- **#MeTwo emerges:** More than 150,000 tweets in about one week (July 24 - August 03, 2018)
 
-- **Data Science Perspective:** Analyse contributor, networks and content of this movement to identify underlying pattern
+- **Data science perspective:** Analyse contributors, networks, and content of this movement to identify underlying patterns
 ]
 
 .pull-right[
@@ -168,7 +168,7 @@ knitr::include_graphics("images/unnamed-chunk-19-1.png")
 ---
 ## Most frequent positive and negative words
 
-```{r, fig.align="center", echo=FALSE}
+```{r, fig.align="center", echo=FALSE, out.width="550px"}
 knitr::include_graphics("images/unnamed-chunk-21-1.png")
 ```
 
@@ -186,11 +186,9 @@ knitr::include_graphics("images/unnamed-chunk-21-1.png")
 ---
 ## Summary
 
-- **#MeTwo:** Important social media movement with impact to the offline world, sparking discussion on the definition of *Germanhood*
+- **#MeTwo:** Important social media movement with impact to the offline world, sparking a discussion on the definition of *Germanhood*
 
-- **Insights:** MeTwo was successful because influencer and social activists took part in event
-
-- **Insights:** Although negative experiences have been made, lots of people spread positivity
+- **Insights:** MeTwo was successful because influencer and social activists took part in event; although negative experiences have been made, lots of people spread positivity
 
 - **Shiny App:** [*https://metwo.correlaid.org/*](https://metwo.correlaid.org/)
 
