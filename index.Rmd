@@ -32,7 +32,6 @@ class: inverse, center, middle
 # Title
 
 ---
-
 ## Title
 
 .pull-left[
@@ -46,43 +45,154 @@ class: inverse, center, middle
 .pull-right[
 ![](images/correlaid-logo.png)
 ]
+
 
 ---
 class: inverse, center, middle
 
-# Title
+# Timeline
 
 ---
-
-## Title
-
-.pull-left[
-- **Text:** text
-
-- **Text:** text
-
-- **Text:** text
-]
-
-.pull-right[
-![](images/correlaid-logo.png)
-]
-
-.center[
-***Text*** <br> text
-]
-
----
-
-## Title
+## Tweets and retweets on # MeTwo
 
 ```{r, fig.align="center", echo=FALSE}
-knitr::include_graphics("images/correlaid-logo.png")
+knitr::include_graphics("images/unnamed-chunk-3-1.png")
 ```
 
 ---
+## Number of (re)tweets over time
 
-## Title
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-2-1.png")
+```
+
+---
+class: inverse, center, middle
+
+# Google Trends
+
+---
+## Google Trends vs. Twitter activity: Mesut Özil
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-4-1.png")
+```
+
+---
+## Google Trends vs. Twitter activity: Rassismus
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-5-1.png")
+```
+
+---
+## Google Trends vs. Twitter activity: #MeTwo
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-6-1.png")
+```
+
+---
+class: inverse, center, middle
+
+# Actors
+
+---
+## Most active users (number of tweets)
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-7-1.png")
+```
+
+---
+## Most favorited users
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-8-1.png")
+```
+
+---
+## Accounts by status group
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-10-1.png")
+```
+
+---
+## Tweet activity by status group
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-11-1.png")
+```
+
+---
+## Retweet network: Days 1-2
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/Plot1-2.png")
+```
+
+---
+## Retweet network: Days 2-5
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/Plot2-5.png")
+```
+
+---
+## Retweet network: Days 5-7
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/Plot5-7.png")
+```
+
+---
+class: inverse, center, middle
+
+# Content
+
+---
+## Tweets by language (share)
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-22-1.png")
+```
+
+---
+## Associated hashtags
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-17-1.png")
+```
+
+---
+## Most common words in tweets
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-15-1.png")
+```
+
+---
+class: inverse, center, middle
+
+# Sentiments
+
+---
+## Sentiments over time
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-19-1.png")
+```
+
+---
+## Most frequent positive and negative words
+
+```{r, fig.align="center", echo=FALSE}
+knitr::include_graphics("images/unnamed-chunk-21-1.png")
+```
+
+---
+## Summary
 
 - **Text:** text
 
@@ -95,9 +205,9 @@ class: center, middle
 
 # Thanks!
 
-Slides made with `r fa("heart", fill = "#2c3e50e")` and R [*xaringan*](https://github.com/yihui/xaringan).
+Slides made with R [*xaringan*](https://github.com/yihui/xaringan).
 
 <br>
 
-**More information** </b>
+**More information:** </b>
 `r fa("home", fill = "#2c3e50e")` metwo.correlaid.org `r fa("twitter", fill = "#2c3e50e")` @CorrelAid `r fa("facebook", fill = "#2c3e50e")` WeAreCorrelAid
