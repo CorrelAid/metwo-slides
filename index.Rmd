@@ -126,27 +126,6 @@ knitr::include_graphics("images/unnamed-chunk-11-1.png")
 ```
 
 ---
-## Retweet network: Days 1-2
-
-```{r, fig.align="center", echo=FALSE}
-knitr::include_graphics("images/Plot1-2.png")
-```
-
----
-## Retweet network: Days 2-5
-
-```{r, fig.align="center", echo=FALSE}
-knitr::include_graphics("images/Plot2-5.png")
-```
-
----
-## Retweet network: Days 5-7
-
-```{r, fig.align="center", echo=FALSE}
-knitr::include_graphics("images/Plot5-7.png")
-```
-
----
 class: inverse, center, middle
 
 # Content
